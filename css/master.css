@@ -500,13 +500,12 @@ header nav .form i {
 .portfolio .img-container .caption {
     background-color: white;
     position: absolute;
-    top: 100%;
+    bottom: -100%;
     left: 0;
     transition: 0.5s;
     transition-timing-function: ease-out;
     width: 100%;
     padding: 20px;
-    height: 25%;
 }
 
 .portfolio .img-container .caption h4 {
@@ -524,8 +523,7 @@ header nav .form i {
 
 
 .portfolio .img-container .card:hover .caption {
-    top: 75%;
-
+    bottom: 0px;
 }
 
 .portfolio .more {
