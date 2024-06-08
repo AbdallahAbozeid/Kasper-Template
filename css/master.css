@@ -706,6 +706,12 @@ header nav .form i {
     grid-gap: 70px;
 }
 
+@media(max-width:767px) {
+    .test-skills .container {
+        grid-template-columns: minmax(200px, 1fr);
+    }
+}
+
 .test-skills .container h3 {
     text-align: center;
     font-weight: normal;
